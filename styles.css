@@ -65,13 +65,12 @@ body {
   grid-template-columns: repeat(4, 1fr);
   gap: var(--space-2);
   padding: var(--space-3);
-  
  }
 
  .display {
   width: 90%;
   font-size: 4rem;
-  margin-top: var(--space-3);
+  margin-top: var(--space-5);
   margin-left: var(--space-3);
   margin-right: var(--space-3);
   box-shadow: var(--shadow);
@@ -85,6 +84,7 @@ body {
   box-shadow: var(--shadow);
   font-size: 3rem;
   font-weight: bold;
+  cursor: pointer;
  }
 
  .operation-btn{
@@ -93,6 +93,6 @@ body {
  }
 
  .clear-btn {
-  background: red;
+  background: rgb(173, 22, 22);
   color: white;
  }
